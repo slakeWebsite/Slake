@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Avalibale offer</title>
+        <link rel="stylesheet" href="Style.css">
+		<script src="JavaScHome.js"></script>
+        
+</head>
+
+
+    <header>
+                <div class ="logo">
+                <img src="images/Logo.png" alt="Logo" >
+            </div>
+
+                <div class = "links">
+                    <nav>
+                        <ul>
+                          <li><a href="index.html" class="active">Home</a></li>
+                          <li><a href="Customer.html">Customer</a></li>
+                          <li><a href="Owner Dashboard-page.html">Restaurant Owner</a></li>
+                        </ul>
+                      </nav>
+                     
+                </div>
+      </header>
+<body>
+<main>
+
+    
+  
+  <div class="All-offerpage">
+    <div class="path">
+         <p><a href="index.html">Home</a>><a href="Owner Dashboard-page.html">Restaurant Owner</a>><a href="Avalible offer.html">Make Or Delete offers</a></p>
+     </div>
+
+
+
+
+
+
+  <!--header of offers -->
+    <div class="offersAv">
+
+      <h2 class="card-section-name">Avalibale Offers</h2>
+      <hr class="hr-line">
+      
+
+<!--offer card-->
+<div class="offer-card">
+
+  <div class="offer-sections">
+    <img src="images/1offer.jpg" alt="" class="offer-img">
+  </div>
+  
+  <div class="offer-sections">
+    <p class="offer-name">Feast with friends! Perfect for special occasions</p>
+    <p class="offer-p">Enjoy a mouthwatering KFC Celebration Bucket Meal filled with a variety of chicken pieces, sides, and delicious sauces.</p>
+  </div>
+  
+  <div class="offer-sections">
+    <label>
+      <input type="checkbox" class="offer-checkbox">
+    </label>
+  </div>
+  
+</div>
+<!--End offer card-->
+
+     <!--offer card-->
+<div class="offer-card">
+
+  <div class="offer-sections">
+    <img src="images/2offer.jpg" alt="" class="offer-img">
+  </div>
+  
+  <div class="offer-sections">
+    <p class="offer-name">Indulge in cheesiness overload!</p>
+    <p class="offer-p">Experience the cheesy delight of Burger King's Quattro Cheese burger. Packed with four different types of delectable cheeses.</p>
+  </div>
+  
+  <div class="offer-sections">
+    <label>
+      <input type="checkbox" class="offer-checkbox">
+    </label>
+  </div>
+  
+</div>
+<!--End offer card-->
+
+<!--offer card-->
+<div class="offer-card">
+
+  <div class="offer-sections">
+    <img src="images/3offer.jpg" alt="" class="offer-img">
+  </div>
+  
+  <div class="offer-sections">
+    <p class="offer-name">Twice the pizza, double the joy!</p>
+    <p class="offer-p">Treat yourself and a friend with Domino's Buy One Get One offer. Order any mouthwatering pizza from their menu and get another one absolutely free.</p>
+  </div>
+  
+  <div class="offer-sections">
+    <label>
+      <input type="checkbox" class="offer-checkbox">
+    </label>
+  </div>
+  
+</div>
+<!--End offer card-->
+
+<!--offer card-->
+<div class="offer-card">
+
+  <div class="offer-sections">
+    <img src="images/4offer.png" alt="" class="offer-img">
+  </div>
+  
+  <div class="offer-sections">
+    <p class="offer-name">Upgrade your meal, on the house!</p>
+    <p class="offer-p" >Hungry for a satisfying meal? Head to McDonald's and take advantage of their irresistible offer. Purchase any two large meals of your choice, and they'll generously treat you to a complimentary medium meal.</p>
+  </div>
+  
+  <div class="offer-sections">
+    <label>
+      <input type="checkbox" class="offer-checkbox">
+    </label>
+  </div>
+  
+</div>
+<!--End offer card-->
+
+     <!--offer card-->
+     <div class="offer-card">
+
+      <div class="offer-sections">
+        <img src="images/5offer.jpg" alt="" class="offer-img">
+      </div>
+      
+      <div class="offer-sections">
+        <p class="offer-name">Delicious subs at half the price!</p>
+        <p class="offer-p">Craving a hearty and flavorful sandwich? Look no further than Subway's tantalizing offer. Enjoy any footlong sub from their wide selection at a whopping 50% off.</p>
+      </div>
+      
+      <div class="offer-sections">
+        <label>
+          <input type="checkbox" class="offer-checkbox">
+        </label>
+      </div>
+      
+    </div>
+    <!--End offer card-->
+
+         <!--offer card-->
+<div class="offer-card">
+
+  <div class="offer-sections">
+    <img src="images/6offer.png" alt="" class="offer-img">
+  </div>
+  
+  <div class="offer-sections">
+    <p class="offer-name">The more, the merrier with discounted burgers!</p>
+    <p class="offer-p">Gather your friends and head to Burgerizzer to take advantage of their fantastic offer. Order 4, 6, or 8 burgers, and you'll receive a generous discount on your entire purchase.</p>
+  </div>
+  
+  <div class="offer-sections">
+    <label>
+      <input type="checkbox" class="offer-checkbox">
+    </label>
+  </div>
+  
+</div>
+<!--End offer card-->
+
+
+
+     <!--button for page -->
+<div class="offers-button-page" id="offers-page-button">
+ 
+  <button type="submit" class="Delete-Selected">Delete Selected</button>
+ 
+<!--End--button for page -->
+    </div>
+    
+    
+    <div class="offersAv">
+     
+   
+      <div class="Createoffers-section">
+        <form >
+          <h2 class="card-section-name">Create offers</h2>
+          <hr class="hr-line"> 
+
+          <label class="offer-label" for="fname">Offer Name</label>
+          <input type="text" class="offer-label" id="fname" name="firstname" placeholder="Enter offer name.." >
+      
+          <label for="subject" class="offer-label">Offer Description</label>
+          <textarea id="subject" class="offer-label" name="subject" placeholder="Description or information about the offer.." style= "height:200px;"></textarea>
+      
+      
+         
+          <p class="desPhoto offer-label">Photo</p>
+          <div class="buttonDown">
+            <label for="mealPhoto" class="custom-file-upload">
+                <img src="images/Icondown.PNG" alt="Photodownload"> upload the image..</label>
+            <input type="file" id="mealPhoto" name="mealPhoto">
+          </div>
+      
+          
+          <button type="submit" class="create-offer" style="display: block; margin: 2% auto;">Create offer</button>
+        </form>
+      </div>
+
+    </div>
+</div>
+</div>
+</main>
+    <footer>
+    <div class="footercontainer">
+    
+
+    <ul class="nav navbar-nav social">
+      <li class="nav-item">
+        <a href="#">
+          <img src="images/facebook.png" alt="Facebook" class="nav-link" />
+          <span class="social-text">@Slake.com</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#">
+          <img src="images/insta.png" alt="Instagram" class="nav-link" />
+          <span class="social-text">@Slake.com</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#">
+          <img src="images/X.png" alt="Twitter" class="nav-link" />
+          <span class="social-text">@Slake.com</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#">
+          <img src="images/telephone.png" alt="telephone" class="nav-link" />
+          <span class="social-text">56 284 7242</span>
+        </a>
+      </li>
+      
+      <li class="nav-item">
+        <a href="#">
+          <img src="images/message.png" alt="message" class="nav-link" />
+          <span class="social-text">Contact@Slake.net
+          </span>
+        </a>
+      </li>
+    </ul>
+  
+
+<p class="text-sm-center">Copyrights © 2024 by Slake - All Rights Reserved</p>
+</div>
+    </footer>
+    <script src="makeoffer.js"></script>
+</body>
+</html>

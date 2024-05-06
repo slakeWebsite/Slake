@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EvaluationPage</title>
+    <link rel="stylesheet" href="Style.css">
+	<script src="JavaScHome.js"></script>
+  
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+        <div class="links">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="Customer.html">Customer</a></li>
+                    <li><a href="Owner Dashboard-page.html">Restaurant Owner</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="path-for-theEvaluationpage">
+            <div class="path">
+                <p><a href="index.html">Home</a>><a href="Customer.html">Customer</a>><a href="Restrunt-page.html">Restaurant</a>><a href="CartPage.html">Cart</a>><a href="EvaluationPage.html">Evaluation</a></p>
+            </div>
+            <div class="image-row">
+                <img src="images/evalutionpage.jpg" alt="Image 1">
+                <img src="images/eval.jpg" alt="Image 2">
+                <img src="images/evalutionpage2.jpg" alt="Image 3">
+            </div>
+        </div>
+        
+        <form class="evaluation-form">
+            <div class="evalutionpagecontent">
+                <h1>Delivered!</h1>
+                <p class="first-Paragraph">Please rate this restaurant delivery level</p>
+                <div class="first-evaluation-rating evaluation-rating">
+                    <div class="star" onclick="rateRestaurant(1, 'first')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(2, 'first')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(3, 'first')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(4, 'first')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(5, 'first')">&#9734;</div>
+                </div>
+                <textarea class="evaluation-1comment-box" name="comment1" placeholder="Write your comment here..."></textarea>
+                <hr class="line-1-evaluationpage">
+                <hr class="line-2-evaluationpage">
+                <p class="second-Paragraph">To evaluate a previous restaurant..</p>
+                <div class="list-container-evaluationpage">
+                    <select id="list-evaluationpage" name="list-evaluationpage">
+                        <option value="McDonald's">McDonald's</option>
+                        <option value="Burger King">Burger King</option>
+                        <option value="AlBaik">AlBaik</option>
+                        <option value="Chick n Bun">Chick n Bun</option>
+                        <option value="Domino's Pizza">Domino's Pizza</option>
+                        <option value="Burgerizer">Burgerizer</option>
+                        <option value="Pizza Hut">Pizza Hut</option>
+                        <option value="Subway">Subway</option>
+                        <option value="Kentucky Fried Chicken">Kentucky Fried Chicken</option>
+                    </select>
+                </div>
+                <div class="second-evaluation-rating evaluation-rating">
+                    <div class="star" onclick="rateRestaurant(1, 'second')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(2, 'second')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(3, 'second')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(4, 'second')">&#9734;</div>
+                    <div class="star" onclick="rateRestaurant(5, 'second')">&#9734;</div>                </div>
+                <textarea class="evaluation-2comment-box" name="comment2" placeholder="Write your comment here..."></textarea>
+                <div class="Donebutton-evaluationpage">
+                    <button type="submit" id="doneButton">Done</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <footer>
+            <div class="footercontainer">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="images/facebook.png" alt="Facebook" class="nav-link" />
+                            <span class="social-text">@Slake.com</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="images/insta.png" alt="Instagram" class="nav-link" />
+                            <span class="social-text">@Slake.com</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="images/X.png" alt="Twitter" class="nav-link" />
+                            <span class="social-text">@Slake.com</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="images/telephone.png" alt="telephone" class="nav-link" />
+                            <span class="social-text">56 284 7242</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <img src="images/message.png" alt="message" class="nav-link" />
+                            <span class="social-text">Contact@Slake.net</span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text-sm-center">Copyrights ©️ 2024 by Slake - All Rights Reserved</p>
+            </div>
+        </footer>
+    </footer>
+    <script src="EvaluationPage.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <title>add New Cuisine</title>
+	
+        <link rel="stylesheet" href="Style.css">
+		<script src="JavaSc-addnewCusine.js"></script>
+		<script src="JavaScHome.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/Logo.png" alt="Logo">
+        </div>
+        <div class="links">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="Customer.html">Customer</a></li>
+                    <li><a href="Owner Dashboard-page.html">Restaurant Owner</a></li>
+                </ul>
+            </nav>
+        </div>
+		<button id="darkModeButton" class="transparent-bg"></button>
+    </header>
+
+<main>
+
+		<div class="path">
+            <p><a href="index.html">Home</a>><a href="Owner Dashboard-page.html">Restaurant Owner</a>><a href="addNweCuisine.html">add new cuisine</a></p>
+        </div>
+    <section class="formNewCuis">
+    <h1>Meal Information</h1>
+    <hr>
+	
+    <div class="listypeMeal">
+      <label for="typeOfMeal">Type of meal</label>
+      <select id="typeOfMeal" name="typeOfMeal">
+          <option value="Main dish">Main dish</option>
+          <option value="Kids meal">Kids meal</option>
+          <option value="Side dishes">Side dishes</option>
+      </select>
+      
+    </div>
+	
+
+    <form id="contactForm" onsubmit="extractFormData(); return false;">
+      <label for="mealName">Name of Meal</label>
+		<input type="text" id="mealName" name="mealName" placeholder="Enter the name of the meal" required>
+      
+      <label for="mealPrice">Price</label>
+		<input type="number" id="mealPrice" name="mealPrice" placeholder="Enter the price" required>
+      
+      <label for="mealCalories">Calories</label>
+		<input type="number" id="mealCalories" name="mealCalories" placeholder="Enter the price" required>
+      
+      <label for="mealDescription">Description</label>
+		<textarea id="mealDescription" name="mealDescription" rows="4" placeholder="Description or Information about the meal" required></textarea>
+		
+	<p class="desPhoto">Photo</p>
+	<div class="buttonDown">
+    <label for="mealPhoto" class="custom-file-upload">
+        <img src="images/Icondown.PNG" alt="Photodownload"> upload the image..</label>
+    <input type="file" id="mealPhoto" name="mealPhoto">
+	</div>
+	 
+      <input type="submit" value="Add the meal"  id="submitBtn">
+      <input type="reset" value="Cancel" id="cancelBtn">
+
+
+    </form>
+	
+  </section>
+</main>
+
+	
+	 
+<footer>
+  <div class="footercontainer">
+  
+
+  <ul>
+    <li class="nav-item">
+      <a href="#">
+        <img src="images/facebook.png" alt="Facebook" class="nav-link" />
+        <span class="social-text">@Slake.com</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#">
+        <img src="images/insta.png" alt="Instagram" class="nav-link" />
+        <span class="social-text">@Slake.com</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#">
+        <img src="images/X.png" alt="Twitter" class="nav-link" />
+        <span class="social-text">@Slake.com</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#">
+        <img src="images/telephone.png" alt="telephone" class="nav-link" />
+        <span class="social-text">56 284 7242</span>
+      </a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="#">
+        <img src="images/message.png" alt="message" class="nav-link" />
+        <span class="social-text">Contact@Slake.net
+        </span>
+      </a>
+    </li>
+  </ul>
+
+
+<p class="text-sm-center">Copyrights ©️ 2024 by Slake - All Rights Reserved</p>
+</div>
+  </footer>
+
+</body>
+
+
+
+</html>

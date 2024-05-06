@@ -1,0 +1,1510 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+	body {
+	font-family: Times New Roman;
+	background-color: #F5D4A6;
+	}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff; 
+}
+
+.dark-mode .backgraond {
+    background-color: #000;
+}
+
+.dark-mode .cart h2{
+    color: #fff; 
+}
+
+.dark-mode .labels{
+    color: #fff; 
+}
+
+.dark-mode .main-RES{
+	    background-color: #000;
+}
+
+/* End Styles for dark mode */
+a {
+    text-decoration: none;
+}
+.backgraond{
+    background-color: #F5D4A6;
+}
+
+	
+/* start of the header*/
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: 3px solid rgba(255, 165, 0, 0.8); 
+
+
+text-transform: uppercase;
+align-items: normal;
+    margin-right: 80px;
+    
+        }
+
+#home{
+
+  padding-top: 55%;
+}
+
+
+
+  a {
+    text-decoration: none;
+}
+  
+  
+  .logo img {
+    height: 55px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+ 
+
+
+nav ul {
+ 
+list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+ 
+}
+
+nav ul > li > a:link,
+nav ul > li > a:visited {
+    
+    color: #fff !important;
+    
+    text-transform: uppercase;
+    
+    margin-right: 80px;
+    font-size: 20px;
+    
+    border-bottom: 2px solid transparent;
+    
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    
+}
+
+
+
+nav ul > li > a:hover,
+nav ul > li > a:active {
+    
+    border-bottom: 2px solid #E67E22;
+    
+}
+
+
+
+#thehomepageheader {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(images/header5.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(images/header5.jpg);
+  
+  height: 80vh; /* تعديل ارتفاع الرأس بنسبة مئوية لتكون متجاوبة */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+  /* end of the header */
+ 
+ 
+ 	/* Start path of pages */
+ 	.path{
+    margin-top: 8%;
+	margin-bottom:1%;
+    color:white;
+	text-align: left;
+	font-size: 17px;
+	padding-left: 10px;
+	text-shadow:2px 2px 4px rgba(0, 0, 0, 0.8);
+	}
+	
+	
+    .path a {
+            color: white;
+            text-decoration: none;
+            margin: 7px;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    }
+	
+		.path a:hover{
+		text-decoration: underline;
+		color: orange;
+	}
+
+	.primary-text {
+	color: #FCA73D;
+	}
+ 	/* End path of pages */
+	
+	/* start of footer*/
+
+.footercontainer {
+	margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 0.75em; 
+  font-weight: bold; 
+  line-height: 1em; 
+  background-color: #56361c;
+  color: #ffff;
+}
+
+.footercontainer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-top:2%;
+}
+.footercontainer a {
+color:#ffff;
+}
+.footercontainer li {
+  margin: 0 40px;
+  text-align: center;
+}
+
+.footercontainer img {
+  width: 50px;
+}
+
+.footercontainer .nav-item {
+  text-align: center;
+}
+
+.footercontainer .social-text {
+  display: block;
+  font-size: 0.8em;
+}
+
+.text-sm-center {
+  width: 100%;
+  text-align: center;
+  margin-top:40px;
+}
+
+  /* end of footer*/
+
+	/* Start Customer Page*/
+	
+#load-more {
+  margin-top: 20px;
+  margin-left: 46%;
+  display: inline-block;
+  padding: 13px 30px;
+  border: 1px solid #334;
+  color: #334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 10px; 
+  font-weight: bold;
+}
+
+#load-more:hover {
+  background-color: #FCA73D;
+  border-color: crimson;
+  color: #fff;
+}
+
+.hover-info {
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999;
+    width: 30%;
+    height: auto;
+}
+
+
+p.hover-info {
+	font-size:0.4em;
+}
+
+.hover-info img {
+    width: 60px;
+}
+
+
+.hover-info .ratingCus2 {
+    display: inline-block;
+    margin-top: 10px;
+	font-size: 17px; 
+}
+
+.hover-info .ratingCus2 .star {
+    color: gold; 
+}
+.restaurant-link {
+    color: black; /* Initial color */
+    text-decoration: none; /* Remove underline */
+}
+
+.restaurant-link:hover {
+    color: orange; /* Color on hover */
+}
+
+	.contentCus {
+	height: 700px;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	background: url(images/Res34.jpg) center center/cover no-repeat;
+	position: relative;
+	background-position: center 70%; 
+	margin-bottom:40px;
+  
+	}
+
+
+	.contentCus::before {
+	content: ""; 
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(0, 0, 0, 0.7);
+	}
+    
+#current-week-date{
+		color:White;
+		margin-left: 10px;
+		text-align: center;
+	
+}
+	.contentCus h1 {
+	font-size: 90px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 6px;
+	text-shadow: 2px 2px 4px rgba(0, 0.4, 0.6, 0.9); 
+	}
+
+	
+		.contentCus .text-contentCus  p{
+	text-align: center;
+	font-size:33px;
+	color: #fff;
+	margin: 20px 0 40px;
+	line-height: 1.5;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+	margin-bottom:50px;
+	}
+
+	.contentCus *{
+	z-index: 10;
+	}
+
+	.contentCus .path{
+     margin-top: 0;
+	}
+
+	.ratingCus .RateStars{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+	    top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		}
+	.ratingCus {
+    font-size: 20px;
+	}
+
+	.star {
+    color: gold; 
+	}
+
+.ListRestaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Restaurant {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 23px;
+    margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.imgCust{
+	    width: 50%;
+}
+
+.Restaurant-content {
+    padding: 8px;
+	align-items: center;
+	text-align: center;
+
+}
+.Restaurant-content p {
+display: none;
+}
+.Restaurant:hover .hover-info {
+    display: block;
+}
+	/* End Customer Page*/
+	
+	/* Start add New Cuisine Page*/
+.formNewCuis {
+    padding: 50px;
+    border-radius: 20px; 
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 730px;
+    margin: auto;  
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
+}
+
+  .formNewCuis h1 {
+    text-align: center; 
+  }
+
+  .formNewCuis hr {
+    width: 55% center; 
+    border-top: 3px solid black; 
+	margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+
+  .formNewCuis label {
+    color: black; 
+    margin-bottom: 5px; 
+    display: block;
+  }
+  
+  .listypeMeal {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+	
+}
+
+
+.listypeMeal select {
+    width: 200px;
+	height: 30px;
+	margin-left: 90px;
+	margin-right: auto;
+	text-align: center;
+}
+
+::placeholder{
+	font-size: 11px;	
+}
+
+  .formNewCuis input[type="text"],
+  .formNewCuis input[type="number"],
+  .formNewCuis textarea,
+  .formNewCuis input[type="file"] {
+    width: 500px;
+    padding: 11px;
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+	border-radius: 10px;
+  }
+
+  .formNewCuis input[type="submit"],
+  input[type="reset"] {
+	margin-bottom:0;
+	border: none;
+    padding: 10px;
+	width: 150px;
+	border-radius: 10px;
+	font-weight: bold;
+	
+  }
+
+  .formNewCuis input[type="submit"] {
+	  color: white; 
+    float: right;
+    margin-right: 60px;
+    background-color: #FCA73D;	
+  }
+  
+    .formNewCuis input[type="reset"] 
+	{    color: White; 
+    background-color: gray;
+	margin-left: 60px; 
+  }
+  
+  
+  .custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+	border: 1px solid black;
+    color: gray;
+    border-radius: 5px;
+	align-items: center;
+
+}
+
+.buttonDown{
+	font-size: 15px;
+    width: 210px;
+    margin: auto;
+    text-align: center;		
+}
+
+.buttonDown img{
+	height: 18px;
+}
+
+.desPhoto{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+#mealPhoto {
+    visibility: hidden;
+}
+.formNewCuis input[type="reset"]:hover {
+    cursor: pointer;
+}
+.formNewCuis input[type="reset"]:hover {
+    background-color: lightgray; /* Change background color to light gray on hover */
+}
+	/* End add New Cuisine Page*/
+	
+	/* Start Cart Page*/
+        .cart-items {
+            display: flex;
+            flex-direction: column; 
+            gap: 20px; 
+			margin-left: 20%;
+			margin-right: 20%;
+			
+        }
+
+
+        .cart-item-details img {
+            width: 155px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+	
+		.cart-item-details {
+			text-shadow: none;
+			color: black;
+		   display: flex;
+			align-items: center;
+			justify-content: space-between;
+	        border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6); 
+		}	
+
+
+
+        .item-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .item-price {
+            color: #777;
+        }
+
+        .item-quantity {
+            color: #555;
+        }
+
+
+        .delete-btn {
+			background-color:#fff;
+			border: none;
+			padding: 0;
+			cursor: pointer;
+        }
+		
+		.delete-btn img {
+		width: 25PX;
+		height: 25PX;
+        }
+
+		.cart {
+			margin-top: 3%;
+		}
+		
+		.cart h2{
+		margin-top: 15px;
+		font-size: 40px;
+		margin-left: 20%;
+		color: #555555;
+		margin-bottom: 4%;		
+		}
+		.clear-btn,
+.checkout-btn {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.clear-btn {
+    background-color: gray;
+	margin-left:68%;
+}
+
+.checkout-btn {
+    background-color: orange;
+}
+		.checkout-btn {
+	text-align:Center;
+    display: block;
+    width: 200px; 
+    margin: 0 auto; 
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+		
+		.delete-btn{
+		margin-right: 50px;	
+		}
+		
+		.increase-btn, .decrease-btn{
+			width: 30px;
+			
+		}
+		
+		.labels {
+			text-align: center;
+			font-size: 20px;
+			margin-left:43%;
+			font-weight: bold;
+			color: gray;
+
+		}
+
+		.label {
+		margin-left: 17%; 
+		letter-spacing: 1px;
+		}
+	/* End Cart Page*/
+	
+
+  
+
+/* the style for the evalution page: the start */
+
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.image-row img {
+  width: 33.33%;
+  height: auto;
+}
+
+.evalutionpagecontent {
+  background-color: #fff;
+  align-items: center;
+  padding: 30px;
+  width: 75%;
+  height: 140%;
+  margin: auto;
+  margin-bottom: 3%;
+  Color:black;
+}
+
+
+.evalutionpagecontent>* {
+  margin-bottom: 20px;
+}
+
+.evaluation-1comment-box,
+.evaluation-2comment-box {
+  width: 65%;
+  height: 150px;
+  resize: vertical;
+  margin: auto;
+  display: block;
+}
+
+.evalutionpagecontent h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.first-Paragraph {
+  font-size: 30px;
+  text-align: center;
+}
+
+.evaluation-rating {
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fdf107;
+  gap: 5px;
+}
+
+.evaluation-1comment-box {
+  width: 65%;
+  height: 150px;
+  resize: vertical;
+  margin: auto;
+}
+
+.line-1-evaluationpage {
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.line-2-evaluationpage {
+  width: 60%;
+  margin-top: 4%;
+  margin-left: 20%;
+}
+
+.second-Paragraph {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.list-container-evaluationpage {
+  text-align: center;
+}
+
+
+
+.list-container-evaluationpage select {
+  width: 20%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+
+.list-container-evaluationpage label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+.evaluation-2comment-box {
+  width: 65%;
+  height: 150px;
+  resize: vertical;
+  margin: auto;
+}
+
+.Donebutton-evaluationpage {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Donebutton-evaluationpage button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f29822db;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  line-height: normal;
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  margin: auto;
+}
+
+/* the style for the evalution page: the end */
+
+
+
+
+
+  
+  /*(2)*/  /*------Owner Dashboard header page that contain (restrunt name+ logo)--------*/
+  
+  .owner-page-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("images/background-owner.jpg") center/cover no-repeat;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.box-owner {
+    width: 50%;
+    text-align: center;
+    color: #fefefe;
+    background: rgba(245, 212, 166, 0.7);
+    padding: 20px;
+    border: 2px solid rgba(245, 212, 166, 0.7);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+
+#owner-logo {
+   width: 35%;
+   height: 35%;
+}
+
+#owner-res-name {
+    font-size: 50px;
+    margin-left: 15%;
+}
+  .all-ownerpage{
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  
+    /*(1)*/                                      /*------path---------*/
+    .path p {
+    color:white;
+    text-align: left;
+    font-size: 17px;
+    padding-left: 10px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.8); 
+    }
+  
+      .path a {
+        color: white;
+         text-decoration: none;
+         margin: 7px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+      }
+  
+     .path a:hover{
+      text-decoration: underline;
+      color: orange;
+    }
+  
+                                              /*-------End path------------*/
+  
+  
+  
+  
+  /*(2)*/  /*------Owner Dashboard header page that contain (restrunt name+ logo)--------*/
+  
+  .owner-page-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("images/background-owner.jpg") center/cover no-repeat;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.box-owner {
+    width: 50%;
+    text-align: center;
+    color: #fefefe;
+    background: rgba(245, 212, 166, 0.7);
+    padding: 20px;
+    border: 2px solid rgba(245, 212, 166, 0.7);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+
+#owner-logo {
+   width: 35%;
+   height: 35%;
+}
+
+#owner-res-name {
+    font-size: 50px;
+    margin-left: 15%;
+}
+
+                                  /*------End owner dashboard header --------*/
+
+
+
+  
+  /*------Meals sctions style----*/
+  
+  .All-ownersections {   
+    float: center;
+    width: 100%;
+	Color: black;
+  }
+  
+  
+  .owner-card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5%;
+  }
+  
+  .body-card {
+      margin: 0;
+      padding: 0;
+      overflow-x: auto; /* Allow horizontal scrolling */
+      white-space: nowrap; /* Prevent meal cards from wrapping */
+    }
+    .meal-card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px 10px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: inline-block; 
+    }
+    .meal-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .meal-details {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .meal-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .meal-description {
+      margin: 5px;
+      margin-bottom: 10px;
+     text-align: center;
+     overflow: auto; 
+     max-height: 100px; 
+     white-space: normal;
+    }
+  
+   .meal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; 
+    
+  }
+  
+    .meal-price {
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+      margin: 0;
+    }
+    .meal-calories {
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+      margin: 0;
+    }
+  
+    /*--------End meals Styles-----*/
+  
+  
+    /*--------offers-button-page---------*/
+        
+    .offers-button-page {
+            overflow: auto;
+            text-align: center; /* Center align the buttons */
+          }
+     
+          #border-offers{
+          border-style: ridge;}
+        
+          .Add-cuisine, .Make-Or-Delete-offers {
+            background-color:#f5ab43;
+            color: white;
+            padding: 10px 30px; /* Increased padding to make buttons wider */
+            margin: 8px 70px; /* Add space between the buttons */
+            cursor: pointer;
+            width: auto;
+             border-radius: 5px;
+            text-decoration: none; /* Remove underline from links */
+            display: inline-block; /* Make links behave like buttons */
+          }
+        
+        
+          .Add-cuisine:hover, .Make-Or-Delete-offers:hover {
+            background-color:#f5d4a6;
+          }
+          
+        
+        /*----End----offers-button-page---------*/
+  
+  /*------style meal section-----*/
+  .section-offer-page {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: White;
+  }
+  
+  .meal-section {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  .meal-section:last-child {
+    border-right: none;
+  }
+  
+  
+  .meal-section a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .meal-section a:hover {
+    background-color:#f5d4a6;
+  }
+  
+  
+  
+  /*-----End--meals section nav bar*/
+
+  /*-----------------------------------------------End owner dash board style----------------*/
+/*----avalibale offer page------*/
+
+.All-offerpage {
+  padding: 10px;
+  box-sizing: border-box;
+  Color:black;
+}
+
+
+
+  .path p {
+  color:white;
+  text-align: left;
+  font-size: 17px;
+  padding-left: 10px;
+  text-shadow:2px 2px 4px rgba(0, 0, 0, 0.8); 
+  }
+
+    .path a {
+      color: white;
+       text-decoration: none;
+       margin: 7px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    }
+
+   .path a:hover{
+    text-decoration: underline;
+    color: orange;
+  }
+
+
+
+  .offersAv{
+  margin: 7%;
+  background-color: white;
+  padding: 20px;
+  }
+
+.card-section-name {
+  padding: 5px;
+  text-align: center;}
+
+
+.hr-line {
+  border: 1px solid ;
+  width: 25%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left:38%;
+}
+
+      /*--------one offer card style-----*/
+      .offer-card {
+  display: flex;
+  align-items:center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 20px; 
+}
+
+      
+        .offer-sections {
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+        }
+      
+        .offer-img {
+          width: 80px;
+          border-radius: 10%;
+        }
+      
+        .offer-name, .offer-p {
+         
+          text-align: left; 
+        }
+      
+        .offer-name {
+          margin-top: 2%;
+          margin-bottom: 1px;
+          padding-left: 20px;
+          font-weight: bold; 
+        }
+      
+        .offer-p {
+          margin: 0.5%;
+  padding: 20px; 
+  white-space: normal; 
+  overflow: hidden; 
+  
+        }
+      
+  .offer-checkbox { 
+          position: absolute; 
+          right: 10px; 
+          top: 50%; 
+          transform: translateY(-50%); 
+          appearance: none; 
+          -webkit-appearance: none; 
+          -moz-appearance: none; 
+          width: 20px; 
+          height: 20px; 
+          border: 2px solid #ccc; 
+          border-radius: 4px; 
+          outline: none; 
+          cursor: pointer; 
+        } 
+       
+        .offer-checkbox:checked { 
+          background-color:#f5d4a6; 
+          border-color: #ffffff; 
+        } 
+       
+        .offer-checkbox::before { 
+          content: "\2713"; 
+          font-size: 14px; 
+          color: white; 
+          display: block; 
+          text-align: center; 
+          line-height: 20px; 
+        }
+      
+        /*-------End---offer card style-----*/
+      
+      /*--------offers-button-page---------*/
+      
+       
+      .Delete-Selected, .create-offer{
+      border: 1px solid #ccc;
+          background-color: #f5ab43;
+          color:white;
+          padding: 10px 30px; 
+          cursor: pointer;
+          width: auto;
+          border-radius: 5px;
+          text-decoration: none; 
+          display: inline-block; 
+        }
+      
+      
+        .create-offer:hover, .Delete-Selected:hover {
+          background-color:#f5d4a6;
+        }
+        
+      
+      /*----End----offers-button-page---------*/
+
+      .Createoffers-section {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+         
+
+
+input[type=text],  textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.offer-label{
+  width: 80%; padding: 8px; margin-left: 10%;margin-right: 10%;
+}
+
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+border: 1px solid black;
+  color: gray;
+  border-radius: 5px;
+align-items: center;
+
+}
+
+.buttonDown{
+font-size: 15px;
+  width: 210px;
+  margin: auto;
+  text-align: center;    
+}
+
+.buttonDown img{
+height: 18px;
+}
+
+.desPhoto{
+display: inline-block;
+margin-right: 10px;
+}
+
+
+#mealPhoto{
+visibility: hidden;
+
+}
+
+
+/*----------------------restrunt page---------------*/
+/* #main-dish-active{ 
+    background-color: white; 
+  } */
+
+.All-Restruntpage {
+  box-sizing: border-box;
+  padding: 5px;
+  Color:black;
+}
+
+
+/*-----------retrunt name + logo -------*/
+
+.Restrunt-page-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("images/Restrunt-burger.jpeg") center/cover no-repeat;
+  height: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.box-Restrunt-page {
+  width: 50%;
+  text-align: center;
+  color: #fefefe;
+  background: rgba(245, 212, 166, 0.7);
+  padding: 20px;
+  border: 2px solid rgba(245, 212, 166, 0.7);
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  margin: 10%;
+}
+
+#Restrunt-page-logo {
+  width: 35%;
+  height: 35%;
+}
+
+#Restrunt-page-name {
+  font-size: 50px;
+  margin-left: 15%;
+}
+
+
+
+
+
+
+
+/*----------End restrunt name + logo --------*/
+
+.card-Res {
+  background-color: white;
+  padding: 20px;
+}
+
+.filter-widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-color: white;
+}
+
+.filter-list {
+  flex: 1 1 0;
+}
+
+.main-RES {
+  background-color: #f5d4a6;
+  padding: 20px;
+  margin-top: 20px;
+  margin: 5%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*------------------sction meals -------------*/
+
+.Restrunt-page-sections {
+  width: 100%;
+  background-color: #f5d4a6;
+  overflow: auto;
+}
+
+.Restrunt-page-sections .category-res-page {
+  float: left;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 30%;
+  text-align: center;
+}
+
+.Restrunt-page-sections .category-res-page:hover {
+  background-color: #f5d4a6;
+}
+
+.Restrunt-page-sections .category-res-page {
+  user-select: none;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.Restrunt-page-sections .category-res-page.active {
+  background-color: #f5d4a6;
+}
+
+/*-----------------end section meals------------*/
+
+
+/*---------------meal card in restrunt page----------*/
+
+
+/* Add CSS styles for hiding and showing meals */
+
+
+
+
+
+.Res-meal-card input[type="checkbox"] {
+  order: 1;
+  margin-left: auto;
+}
+
+.Res-meal-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Res-meal-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.Res-meal-info {
+  padding: 10px;
+  flex: 1;
+}
+
+.Res-meal-info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.Res-calories {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.price-and-add {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Res-price {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.Res-add-button {
+  background-color: #f5d4a6;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Res-add-button:hover {
+  background-color: #f5ab43;
+}
+
+/*-----------end meal card in restrunt page-----------*/
+
+
+/*------veiw----------*/
+.veiw-respage {
+  overflow: hidden;
+  background-color: #4e4a4541;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.veiw-respage button {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.veiw-respage button:hover {
+  background: #f5d4a6;
+  color: black;
+}
+
+/*-----------end veiw ------------*/
+
+optgroup {
+  font-weight: bold;
+}
+
+
+select option {
+  padding: 10px;
+}
+
+
+#sort {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px;
+  float: right;
+}
+
+#sort:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+
+
+/*-----------------end restrunt page*--------------------/

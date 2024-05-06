@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <title>Restrunt page</title>
+
+  <link rel="stylesheet" href="Style.css">
+  <script src="JavaScHome.js"></script>
+
+
+</head>
+
+<header>
+  <div class="logo">
+    <img src="images/Logo.png" alt="Logo">
+  </div>
+
+  <div class="links">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="Customer.html">Customer</a></li>
+        <li><a href="Owner Dashboard-page.html">Restaurant Owner</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<body>
+
+  <div class="All-Restruntpage">
+
+    <div class="path">
+      <p><a href="index.html">Home</a>><a href="Customer.html">Customer</a>><a href="Restrunt-page.html">Restaurant</a>
+      </p>
+    </div>
+
+    <!-----------------header of page------------------------->
+    <div class="Restrunt-page-background">
+
+      <div class="box-Restrunt-page">
+        <img id="Restrunt-page-logo" src="images/Restrunt-logo.png" alt="Logo">
+        <h1 id="Restrunt-page-name">Burgerizzer</h1>
+
+      </div>
+    </div>
+    <!--------------------end----------------------------->
+
+
+
+    <div class="main-RES">
+
+      <div class="Restrunt-page-sections">
+        <div class="filter-widget">
+          <form>
+            <select id="sort" name="sort">
+              <option value="" disabled selected hidden>Sort</option>
+              <optgroup label="Price">
+                <option value="low_to_high">Low to High</option>
+                <option value="high_to_low">High to Low</option>
+              </optgroup>
+              <optgroup label="Name">
+                <option value="a_to_z">A to Z</option>
+                <option value="z_to_a">Z to A</option>
+              </optgroup>
+            </select>
+
+          </form>
+          <div class="filter-list">
+            <label class="category-res-page" data-category="main-dish"> Main Dishes</label>
+            <label class="category-res-page" data-category="kids-meal"> Kids Meal</label>
+            <label class="category-res-page" data-category="side-dishes">Side Dishes</label>
+          </div>
+        </div>
+
+
+        <div class="card-Res">
+
+          <div class="Res-meal-card" data-category="main-dish">
+            <input type="checkbox" name="meal_checkbox-01">
+
+            <img class="Res-meal-image" src="images/burger1.jpg" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Beef Burger</h3>
+              <p class="Res-calories">1100 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">30 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="Res-meal-card" data-id="1" data-category="main-dish">
+            <input type="checkbox" name="meal_checkbox-02">
+            <img class="Res-meal-image" src="images/burger3.jpg" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Fried chicken Burger</h3>
+              <p class="Res-calories">1300 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">30 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="Res-meal-card" data-category="main-dish">
+            <input type="checkbox" name="meal_checkbox-03">
+            <img class="Res-meal-image" src="images/burger2.jpg" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Chicken Burger</h3>
+              <p class="Res-calories">1200 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">29 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="Res-meal-card" data-category="main-dish">
+            <input type="checkbox" name="meal_checkbox-04">
+            <img class="Res-meal-image" src="images/burger4.png" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Tortilla Classic Meal</h3>
+              <p class="Res-calories">1200 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">32 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!---the kids meal -->
+
+
+          <div class="Res-meal-card" data-category="kids-meal">
+            <input type="checkbox" name="meal_checkbox-05">
+            <img class="Res-meal-image" src="images/kidsmeal2.png" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Wonderizzr Meltizzr Chicken</h3>
+              <p class="Res-calories">777 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">28 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="Res-meal-card" data-category="kids-meal">
+            <input type="checkbox" name="meal_checkbox-06">
+            <img class="Res-meal-image" src="images/kidsmeal1.png" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Wonderizzr Chicken Nuggets</h3>
+              <p class="Res-calories">369 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">20 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!---the side dishes -->
+
+
+
+          <div class="Res-meal-card" data-category="side-dishes">
+            <input type="checkbox" name="meal_checkbox-07">
+            <img class="Res-meal-image" src="images/side1.jpg" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>French Fries</h3>
+              <p class="Res-calories">479 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">7 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="Res-meal-card" data-category="side-dishes">
+
+            <input type="checkbox" name="meal_checkbox-08">
+            <img class="Res-meal-image" src="images/side5.png" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Burgerizzr Sauce</h3>
+              <p class="Res-calories">70 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">2 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="Res-meal-card" data-category="side-dishes">
+            <input type="checkbox" name="meal_checkbox-09">
+            <img class="Res-meal-image" src="images/side4.png" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Frizzr - Cheese Fries</h3>
+              <p class="Res-calories">478 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">12 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="Res-meal-card" data-category="side-dishes">
+            <input type="checkbox" name="meal_checkbox-10">
+            <img class="Res-meal-image" src="images/side2.jpg" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Pepsi</h3>
+              <p class="Res-calories">298 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">6 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="Res-meal-card" data-category="side-dishes">
+            <input type="checkbox" name="meal_checkbox-11">
+            <img class="Res-meal-image" src="images/side3.jpg" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>7 Up</h3>
+              <p class="Res-calories">298 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">6 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="Res-meal-card" data-category="side-dishes">
+            <input type="checkbox" name="meal_checkbox-12">
+            <img class="Res-meal-image" src="images/side6.jpg" alt="Meal Image">
+            <div class="Res-meal-info">
+              <h3>Mountain Dew</h3>
+              <p class="Res-calories">298 CL</p>
+              <div class="price-and-add">
+                <p class="Res-price">6 SR</p>
+                <div class="Res-add-button">
+                  <button class="decreasebtnRes">-</button>
+                  <span class="quantityRes">1</span>
+                  <button class="increasebtnRes">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <!--veiw cart-->
+
+      <div class="veiw-respage">
+        <button id="add-item-to-cart">View cart</button>
+      </div>
+
+    </div>
+
+
+  </div>
+  <footer>
+    <div class="footercontainer">
+
+
+      <ul class="nav navbar-nav social">
+        <li class="nav-item">
+          <a href="#">
+            <img src="images/facebook.png" alt="Facebook" class="nav-link" />
+            <span class="social-text">@Slake.com</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            <img src="images/insta.png" alt="Instagram" class="nav-link" />
+            <span class="social-text">@Slake.com</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            <img src="images/X.png" alt="Twitter" class="nav-link" />
+            <span class="social-text">@Slake.com</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            <img src="images/telephone.png" alt="telephone" class="nav-link" />
+            <span class="social-text">56 284 7242</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#">
+            <img src="images/message.png" alt="message" class="nav-link" />
+            <span class="social-text">Contact@Slake.net
+            </span>
+          </a>
+        </li>
+      </ul>
+
+
+      <p class="text-sm-center">Copyrights © 2024 by Slake - All Rights Reserved</p>
+    </div>
+  </footer>
+  <script src="ResturantScript.js"></script>
+
+</body>
+
+</html>
